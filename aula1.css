@@ -1,0 +1,76 @@
+.header-body{
+    background-color: darkolivegreen;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+
+/*sessão 1*/
+
+.div-texto01 h1{
+    font-family: "Imperial Script", cursive;
+    color: white;
+
+}
+
+.div-icon i{
+    font-size: 50px;
+    color: white;
+}
+
+.section-01{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px;
+    
+    
+}
+
+.section-01 img{
+        width: 650px;
+        box-shadow: 10px 10px 20px ;
+}
+
+.section-01 h2{
+    padding: 25px;
+    color:grey ;
+    font-family: "Imperial Script", cursive;
+}
+
+
+/*sessão 2*/
+
+.section-02{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    gap: 10px;
+}
+
+.div-02{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px;
+    width: 550px;  
+}
+
+.img1 img{
+    width: 550px;
+}
+
+.img2 img{
+   width:550px; 
+} 
+
+.img3 img{
+    width: 550px;
+}
+
+
+
+
+
