@@ -192,6 +192,7 @@ body{
     position: relative;
     width: 100%;
     overflow: hidden;
+    
 }
 
 video{
@@ -199,7 +200,8 @@ video{
     justify-content: center;
     align-items:center;
     width: 100%;
-    height: auto; /* Mantém a proporção do vídeo */
+    height: 100%; /* Mantém a proporção do vídeo */
+    object-fit: cover;
 }
 
 .overlay-image{
