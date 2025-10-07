@@ -26,7 +26,7 @@ body{
 
 .div-list a{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -34,8 +34,7 @@ body{
 
 .div-texto01 h1{
     font-family: "Imperial Script", cursive;
-    color: white;
-
+    color: rgb(0, 0, 0);
 }
 
 .div-icon i{
@@ -46,8 +45,7 @@ body{
 .div-video{
     position: relative;
     width: 100%;
-    overflow: hidden;
-    
+    overflow: hidden;  
 }
 
 video{
@@ -60,8 +58,8 @@ video{
 }
 
 .section-01 img{
-        width: 650px;
-        box-shadow: 10px 10px 20px ;
+    width: 650px;
+    box-shadow: 10px 10px 20px ;
 }
 
 .section-01 h2{
@@ -84,28 +82,30 @@ video{
 }
 
 .divglobal2{
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;  
-    padding: 30px;
+    padding: 50px;
     width: 1050px;
     height: 300px;
-    gap: 10px;
+    gap: 30px;
     text-align: center
 }
-
-
 
 .div-02{
     padding: 15px;
     width: 950px;
     height: 300px;
-    gap: 10px;
     text-align: center;
     font-family:  "Imperial Script", cursive;
     padding: 20px;
 } 
 
+.div-02:hover{
+     transform: scale(1.1);
+     box-shadow: 5px 5px 20px rgba(51, 49, 49, 0.856);
+     transition: 1s;
+}
 
 .img1{
     background-image: url(imagens/essa\ aq.webp);
@@ -129,24 +129,24 @@ video{
 /*sessão 3*/
 
 .section-03{
-  display: flex;
-  flex-direction: column;
- justify-content: center;
- align-items: center;
- gap: 15px;
- padding: 50px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 15px;
+    padding: 50px;
 }
 
 .h1-03{
     color: rgb(116, 151, 116);
     margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
    
 .div-global {
     display: flex;
-    gap: 25px;
-   
+    gap: 25px;  
 }
 
 .div-03{
@@ -160,13 +160,11 @@ video{
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
-   
 }
 
 .div-03:hover{
     transform: scale(1.1);
-    box-shadow: 5px 5px 10px rgba(99, 95, 95, 0.822);;
-    
+    box-shadow: 5px 5px 10px rgba(99, 95, 95, 0.822);
 }
 
 .ima1{
@@ -203,6 +201,7 @@ video{
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
+    background-position: center;
 }
 
 
@@ -212,23 +211,6 @@ video{
 
 .pes{
     color: rgb(0, 128, 0);
-}
-
-.div-video-h3{
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.overlay-image{
-     position: absolute;
-     top: 50%;
-     transform: translate(-50% -50%);
-     width: 250px;
-     height: auto;
-     z-index: 10; 
 }
 
 .section-04{
